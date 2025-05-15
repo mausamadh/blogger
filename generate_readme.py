@@ -31,7 +31,7 @@ def build_file_tree():
 
 def generate_readme_content():
     tree = build_file_tree()
-    lines = ["# Project File Index\n"]
+    lines = [""]
     grouped = {}
 
     for path, files in tree.items():
@@ -41,10 +41,10 @@ def generate_readme_content():
         grouped.setdefault(top, {}).setdefault(sub, []).extend(files)
 
     for top_folder, subfolders in grouped.items():
-        lines.append(f"## {top_folder}/")
+        lines.append(f"## {top_folder}")
         for subfolder, files in subfolders.items():
             if subfolder:
-                lines.append(f"- **{subfolder}/**")
+                lines.append(f"- **{subfolder}**")
             else:
                 lines.append("- **(root)**")
             for filename, full_path, description in files:
