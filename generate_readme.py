@@ -5,15 +5,27 @@ WATCHED_DIRS = ['archives']
 README_PATH = 'README.md'
 VALID_EXTENSIONS = {'.md'}
 
+# def get_description(file_path):
+#     try:
+#         with open(file_path, 'r', encoding='utf-8') as f:
+#             for line in f:
+#                 if line.strip():
+#                     return line.strip()[:100]
+#     except:
+#         return "No description available"
+#     return "No description available"
+
 def get_description(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                if line.strip():
-                    return line.strip()[:100]
-    except:
-        return "No description available"
-    return "No description available"
+            lines = f.readlines()
+            if len(lines) >= 10:
+                return lines[9].strip()[:100]  # 10th line (index 9)
+            else:
+                return "No description: less than 10 lines"
+    except Exception as e:
+        return f"Error reading file: {e}"
+
 
 def build_file_tree():
     structure = {}
