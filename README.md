@@ -1,1 +1,5 @@
-# blogger
+# Project File Index
+
+## archives/
+- **2025/**
+  - [1.md](archives/2025/1.md): ---
