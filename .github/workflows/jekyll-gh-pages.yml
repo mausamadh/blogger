@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add readme.md
+          git add README.md
           git diff --cached --quiet || git commit -m "Auto-update readme.md"
           git push
         env:
