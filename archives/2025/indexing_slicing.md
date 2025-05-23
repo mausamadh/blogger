@@ -146,8 +146,8 @@ We would like to thank the Python community for their contributions to the langu
 
 ## Related Posts
 
-- [Understanding Python Lists: A Comprehensive Guide](https://example.com/python-lists-guide)
-- [Mastering Python Tuples: Tips and Tricks](https://example.com/python-tuples-tips)
+- [Understanding Python Lists: A Comprehensive Guide](https://mausamadhikari.com.np/blogger/python-lists-guide)
+- [Mastering Python Tuples: Tips and Tricks](https://mausamadhikari.com.np/blogger/python-tuples-tips)
 
 ## License
 
