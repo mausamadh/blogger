@@ -35,12 +35,14 @@ canonical_url:
 Indexing and slicing are fundamental concepts in Python that allow you to access and manipulate data structures like lists, tuples, and strings. Understanding these concepts is crucial for effective programming in Python.
 
 ## List
+
 A list is a built-in data structure in Python that allows you to store a collection of items. Lists are mutable, meaning you can change their content after creation. They can contain elements of different data types, including numbers, strings, and even other lists.
 Lists are defined using square brackets `[]`, and elements are separated by commas. For example:
 
 ```python
 my_list = [1, 2, 3, 4, 5]
 ```
+
 Lists can be created using various methods, including list comprehensions, the `list()` constructor, and the `append()` method. Here are some examples:
 
 ```python
@@ -56,12 +58,14 @@ for i in range(1, 6):
     my_list.append(i)
 print(my_list)  # Output: [1, 2, 3, 4, 5]
 ```
+
 Lists can contain duplicate elements, and they can be nested, meaning you can have lists within lists. For example:
 
 ```python
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(nested_list)  # Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
+
 Lists are versatile and can be used in various applications, such as data analysis, web development, and machine learning. They are a fundamental part of Python programming and are widely used in many projects.
 Lists are a powerful data structure in Python that allow you to store and manipulate collections of items. They are mutable, meaning you can change their content after creation, and they can contain elements of different data types. Lists are defined using square brackets `[]`, and elements are separated by commas.
 For example:
