@@ -1,7 +1,7 @@
 ---
 title: How PCA Components Are Linearly Decomposed?
-number: '#1'
-link: 'https://github.com/mausamadh/blogger/issues/1'
+number: 1
+link: '/archives/2025/PCA_Python.md'
 created_at: '2025-05-15 13:07:27'
 updated_at: '2025-05-15 14:55:04'
 labels:

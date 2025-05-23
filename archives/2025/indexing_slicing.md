@@ -24,8 +24,13 @@ tags:
 - data science
 - software development
 - technology
-cover_image: 
+cover_image: https://mausamadhikari.com.np/images/python_indexing_slicing.jpg
 canonical_url:
+- https://mausamadhikari.com.np/blogger/python-indexing-slicing
+number: 2
+link: '/archives/2025/indexing_slicing.md'
+created_at: '2025-05-15 13:07:27'
+updated_at: '2025-05-15 14:55:04'
 ---
 
 # Indexing and Slicing in Python
